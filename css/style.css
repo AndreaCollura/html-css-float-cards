@@ -44,19 +44,20 @@ body{
     width: calc(100% / 3);
     
     
+}
+.profile-box{
+    margin: 20px;
+    background-color: var(--black);
     
 }
 
-/* .profile-box{
-    widt
-
-} */
 
 /* IMMAGINI */
 
 img{
     width: 30%;
     float: left;
+    
 }
 
 
@@ -66,6 +67,7 @@ h1{
     color: var(--pink);
     text-align: center;
     padding: 30px;
+    font-size: 2.5rem;
     
 }
 
@@ -76,8 +78,31 @@ h1{
     
 }
 
-img>h2{
+.text-info>h2{
+    color: var(--white);
+    vertical-align:middle;
+    font-size: 1rem;
+    
+     
+}
+
+.text-info>p{
+    color: var(--white);
+    vertical-align:middle;
+
+   
 
 }
+
+.text-info p:last-child{
+    color: var(--aqua);
+    vertical-align:middle;
+    
+}
+
+.text-info{
+    padding: 24px;
+}
+   
 
 
