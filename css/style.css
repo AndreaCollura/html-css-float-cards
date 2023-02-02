@@ -3,7 +3,8 @@
 :root {
     --pink: #e53170;
     --black: #0f0e17;
-    --aqua: #55b8e7
+    --aqua: #55b8e7;
+    --white: #ffffff;
 }
 * {
     margin: 0;
@@ -13,7 +14,7 @@
 .clearfix::after{
     content: "";
     display: table;
-    clear: both;                                                   ;
+    clear: both;                                                   
 }
 body{
     color: var(--black);
@@ -27,24 +28,56 @@ body{
 
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
+    
     
 }
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
+    
+    
 }
 
 .col{
     float: left;
     width: calc(100% / 3);
-    border: 1px solid black;
+    
+    
+    
+}
+
+/* .profile-box{
+    widt
+
+} */
+
+/* IMMAGINI */
+
+img{
+    width: 30%;
+    float: left;
 }
 
 
 /* TEXT */
 
+h1{
+    color: var(--pink);
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.header-box>p{
+    text-align: center;
+    padding: 0 5px 30px 5px;
+    font-size: 1.1rem;
+    
+}
+
+img>h2{
+
+}
 
 
