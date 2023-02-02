@@ -1,13 +1,50 @@
-
-
-
-
-
 /* GENERAL */
 
+:root {
+    --pink: #e53170;
+    --black: #0f0e17;
+    --aqua: #55b8e7
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;                                                   ;
+}
+body{
+    color: var(--black);
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+/* CONTAINER */
+
+.header-box{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.col{
+    float: left;
+    width: calc(100% / 3);
+    border: 1px solid black;
+}
+
+
+/* TEXT */
+
+
 
